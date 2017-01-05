@@ -1,0 +1,1424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6A4F551E1E55BF00689E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F541E1E55BF00689E66 /* main.m */; };
+		0F6A4F581E1E55BF00689E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F571E1E55BF00689E66 /* AppDelegate.m */; };
+		0F6A4F5B1E1E55BF00689E66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F5A1E1E55BF00689E66 /* ViewController.m */; };
+		0F6A4F5E1E1E55BF00689E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A4F5C1E1E55BF00689E66 /* Main.storyboard */; };
+		0F6A4F601E1E55BF00689E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A4F5F1E1E55BF00689E66 /* Assets.xcassets */; };
+		0F6A4F631E1E55BF00689E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A4F611E1E55BF00689E66 /* LaunchScreen.storyboard */; };
+		0F6A4F6E1E1E55BF00689E66 /* test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F6D1E1E55BF00689E66 /* test2Tests.m */; };
+		0F6A4F791E1E55BF00689E66 /* test2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F781E1E55BF00689E66 /* test2UITests.m */; };
+		0F6A4FA51E1E56A000689E66 /* aliyun_iot_common_base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F9A1E1E56A000689E66 /* aliyun_iot_common_base64.c */; };
+		0F6A4FA61E1E56A000689E66 /* aliyun_iot_common_config.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F9B1E1E56A000689E66 /* aliyun_iot_common_config.c */; };
+		0F6A4FA71E1E56A000689E66 /* aliyun_iot_common_hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F9C1E1E56A000689E66 /* aliyun_iot_common_hmac.c */; };
+		0F6A4FA81E1E56A000689E66 /* aliyun_iot_common_httpclient.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F9D1E1E56A000689E66 /* aliyun_iot_common_httpclient.c */; };
+		0F6A4FA91E1E56A000689E66 /* aliyun_iot_common_json.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F9E1E1E56A000689E66 /* aliyun_iot_common_json.c */; };
+		0F6A4FAA1E1E56A000689E66 /* aliyun_iot_common_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F9F1E1E56A000689E66 /* aliyun_iot_common_list.c */; };
+		0F6A4FAB1E1E56A000689E66 /* aliyun_iot_common_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FA01E1E56A000689E66 /* aliyun_iot_common_log.c */; };
+		0F6A4FAC1E1E56A000689E66 /* aliyun_iot_common_md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FA11E1E56A000689E66 /* aliyun_iot_common_md5.c */; };
+		0F6A4FAD1E1E56A000689E66 /* aliyun_iot_common_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FA21E1E56A000689E66 /* aliyun_iot_common_sha1.c */; };
+		0F6A4FAE1E1E56A000689E66 /* aliyun_iot_common_urlencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FA31E1E56A000689E66 /* aliyun_iot_common_urlencode.c */; };
+		0F6A4FAF1E1E56A000689E66 /* aliyun_iot_common_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FA41E1E56A000689E66 /* aliyun_iot_common_util.c */; };
+		0F6A4FC51E1E56AC00689E66 /* aliyun_iot_platform_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FBD1E1E56AC00689E66 /* aliyun_iot_platform_memory.c */; };
+		0F6A4FC61E1E56AC00689E66 /* aliyun_iot_platform_network.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FBE1E1E56AC00689E66 /* aliyun_iot_platform_network.c */; };
+		0F6A4FC71E1E56AC00689E66 /* aliyun_iot_platform_persistence.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FBF1E1E56AC00689E66 /* aliyun_iot_platform_persistence.c */; };
+		0F6A4FC81E1E56AC00689E66 /* aliyun_iot_platform_pthread.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FC01E1E56AC00689E66 /* aliyun_iot_platform_pthread.c */; };
+		0F6A4FC91E1E56AC00689E66 /* aliyun_iot_platform_random.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FC11E1E56AC00689E66 /* aliyun_iot_platform_random.c */; };
+		0F6A4FCA1E1E56AC00689E66 /* aliyun_iot_platform_signal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FC21E1E56AC00689E66 /* aliyun_iot_platform_signal.c */; };
+		0F6A4FCB1E1E56AC00689E66 /* aliyun_iot_platform_threadsync.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FC31E1E56AC00689E66 /* aliyun_iot_platform_threadsync.c */; };
+		0F6A4FCC1E1E56AC00689E66 /* aliyun_iot_platform_timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4FC41E1E56AC00689E66 /* aliyun_iot_platform_timer.c */; };
+		0F6A50691E1E56BF00689E66 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A501D1E1E56BF00689E66 /* aes.c */; };
+		0F6A506A1E1E56BF00689E66 /* aesni.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A501E1E1E56BF00689E66 /* aesni.c */; };
+		0F6A506B1E1E56BF00689E66 /* arc4.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A501F1E1E56BF00689E66 /* arc4.c */; };
+		0F6A506C1E1E56BF00689E66 /* asn1parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50201E1E56BF00689E66 /* asn1parse.c */; };
+		0F6A506D1E1E56BF00689E66 /* asn1write.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50211E1E56BF00689E66 /* asn1write.c */; };
+		0F6A506E1E1E56BF00689E66 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50221E1E56BF00689E66 /* base64.c */; };
+		0F6A506F1E1E56BF00689E66 /* bignum.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50231E1E56BF00689E66 /* bignum.c */; };
+		0F6A50701E1E56BF00689E66 /* blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50241E1E56BF00689E66 /* blowfish.c */; };
+		0F6A50711E1E56BF00689E66 /* camellia.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50251E1E56BF00689E66 /* camellia.c */; };
+		0F6A50721E1E56BF00689E66 /* ccm.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50261E1E56BF00689E66 /* ccm.c */; };
+		0F6A50731E1E56BF00689E66 /* certs.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50271E1E56BF00689E66 /* certs.c */; };
+		0F6A50741E1E56BF00689E66 /* cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50281E1E56BF00689E66 /* cipher.c */; };
+		0F6A50751E1E56BF00689E66 /* cipher_wrap.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50291E1E56BF00689E66 /* cipher_wrap.c */; };
+		0F6A50761E1E56BF00689E66 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0F6A502A1E1E56BF00689E66 /* CMakeLists.txt */; };
+		0F6A50771E1E56BF00689E66 /* ctr_drbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A502B1E1E56BF00689E66 /* ctr_drbg.c */; };
+		0F6A50781E1E56BF00689E66 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A502C1E1E56BF00689E66 /* debug.c */; };
+		0F6A50791E1E56BF00689E66 /* des.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A502D1E1E56BF00689E66 /* des.c */; };
+		0F6A507A1E1E56BF00689E66 /* dhm.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A502E1E1E56BF00689E66 /* dhm.c */; };
+		0F6A507B1E1E56BF00689E66 /* ecdh.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A502F1E1E56BF00689E66 /* ecdh.c */; };
+		0F6A507C1E1E56BF00689E66 /* ecdsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50301E1E56BF00689E66 /* ecdsa.c */; };
+		0F6A507D1E1E56BF00689E66 /* ecjpake.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50311E1E56BF00689E66 /* ecjpake.c */; };
+		0F6A507E1E1E56BF00689E66 /* ecp.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50321E1E56BF00689E66 /* ecp.c */; };
+		0F6A507F1E1E56BF00689E66 /* ecp_curves.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50331E1E56BF00689E66 /* ecp_curves.c */; };
+		0F6A50801E1E56BF00689E66 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50341E1E56BF00689E66 /* entropy.c */; };
+		0F6A50811E1E56BF00689E66 /* entropy_poll.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50351E1E56BF00689E66 /* entropy_poll.c */; };
+		0F6A50821E1E56BF00689E66 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50361E1E56BF00689E66 /* error.c */; };
+		0F6A50831E1E56BF00689E66 /* gcm.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50371E1E56BF00689E66 /* gcm.c */; };
+		0F6A50841E1E56BF00689E66 /* havege.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50381E1E56BF00689E66 /* havege.c */; };
+		0F6A50851E1E56BF00689E66 /* hmac_drbg.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50391E1E56BF00689E66 /* hmac_drbg.c */; };
+		0F6A50861E1E56BF00689E66 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A503A1E1E56BF00689E66 /* Makefile */; };
+		0F6A50871E1E56BF00689E66 /* md.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A503B1E1E56BF00689E66 /* md.c */; };
+		0F6A50881E1E56BF00689E66 /* md2.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A503C1E1E56BF00689E66 /* md2.c */; };
+		0F6A50891E1E56BF00689E66 /* md4.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A503D1E1E56BF00689E66 /* md4.c */; };
+		0F6A508A1E1E56BF00689E66 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A503E1E1E56BF00689E66 /* md5.c */; };
+		0F6A508B1E1E56BF00689E66 /* md_wrap.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A503F1E1E56BF00689E66 /* md_wrap.c */; };
+		0F6A508C1E1E56BF00689E66 /* memory_buffer_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50401E1E56BF00689E66 /* memory_buffer_alloc.c */; };
+		0F6A508D1E1E56BF00689E66 /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50411E1E56BF00689E66 /* net.c */; };
+		0F6A508E1E1E56BF00689E66 /* oid.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50421E1E56BF00689E66 /* oid.c */; };
+		0F6A508F1E1E56BF00689E66 /* padlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50431E1E56BF00689E66 /* padlock.c */; };
+		0F6A50901E1E56BF00689E66 /* pem.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50441E1E56BF00689E66 /* pem.c */; };
+		0F6A50911E1E56BF00689E66 /* pk.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50451E1E56BF00689E66 /* pk.c */; };
+		0F6A50921E1E56BF00689E66 /* pk_wrap.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50461E1E56BF00689E66 /* pk_wrap.c */; };
+		0F6A50931E1E56BF00689E66 /* pkcs11.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50471E1E56BF00689E66 /* pkcs11.c */; };
+		0F6A50941E1E56BF00689E66 /* pkcs12.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50481E1E56BF00689E66 /* pkcs12.c */; };
+		0F6A50951E1E56BF00689E66 /* pkcs5.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50491E1E56BF00689E66 /* pkcs5.c */; };
+		0F6A50961E1E56BF00689E66 /* pkparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A504A1E1E56BF00689E66 /* pkparse.c */; };
+		0F6A50971E1E56BF00689E66 /* pkwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A504B1E1E56BF00689E66 /* pkwrite.c */; };
+		0F6A50981E1E56BF00689E66 /* platform.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A504C1E1E56BF00689E66 /* platform.c */; };
+		0F6A50991E1E56BF00689E66 /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A504D1E1E56BF00689E66 /* ripemd160.c */; };
+		0F6A509A1E1E56BF00689E66 /* rsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A504E1E1E56BF00689E66 /* rsa.c */; };
+		0F6A509B1E1E56BF00689E66 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A504F1E1E56BF00689E66 /* sha1.c */; };
+		0F6A509C1E1E56BF00689E66 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50501E1E56BF00689E66 /* sha256.c */; };
+		0F6A509D1E1E56BF00689E66 /* sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50511E1E56BF00689E66 /* sha512.c */; };
+		0F6A509E1E1E56BF00689E66 /* ssl_cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50521E1E56BF00689E66 /* ssl_cache.c */; };
+		0F6A509F1E1E56BF00689E66 /* ssl_ciphersuites.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50531E1E56BF00689E66 /* ssl_ciphersuites.c */; };
+		0F6A50A01E1E56BF00689E66 /* ssl_cli.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50541E1E56BF00689E66 /* ssl_cli.c */; };
+		0F6A50A11E1E56BF00689E66 /* ssl_cookie.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50551E1E56BF00689E66 /* ssl_cookie.c */; };
+		0F6A50A21E1E56BF00689E66 /* ssl_srv.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50561E1E56BF00689E66 /* ssl_srv.c */; };
+		0F6A50A31E1E56BF00689E66 /* ssl_ticket.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50571E1E56BF00689E66 /* ssl_ticket.c */; };
+		0F6A50A41E1E56BF00689E66 /* ssl_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50581E1E56BF00689E66 /* ssl_tls.c */; };
+		0F6A50A51E1E56BF00689E66 /* threading.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50591E1E56BF00689E66 /* threading.c */; };
+		0F6A50A61E1E56BF00689E66 /* timing.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A505A1E1E56BF00689E66 /* timing.c */; };
+		0F6A50A71E1E56BF00689E66 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A505B1E1E56BF00689E66 /* version.c */; };
+		0F6A50A81E1E56BF00689E66 /* version_features.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A505C1E1E56BF00689E66 /* version_features.c */; };
+		0F6A50A91E1E56BF00689E66 /* x509.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A505D1E1E56BF00689E66 /* x509.c */; };
+		0F6A50AA1E1E56BF00689E66 /* x509_create.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A505E1E1E56BF00689E66 /* x509_create.c */; };
+		0F6A50AB1E1E56BF00689E66 /* x509_crl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A505F1E1E56BF00689E66 /* x509_crl.c */; };
+		0F6A50AC1E1E56BF00689E66 /* x509_crt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50601E1E56BF00689E66 /* x509_crt.c */; };
+		0F6A50AD1E1E56BF00689E66 /* x509_csr.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50611E1E56BF00689E66 /* x509_csr.c */; };
+		0F6A50AE1E1E56BF00689E66 /* x509write_crt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50621E1E56BF00689E66 /* x509write_crt.c */; };
+		0F6A50AF1E1E56BF00689E66 /* x509write_csr.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50631E1E56BF00689E66 /* x509write_csr.c */; };
+		0F6A50B01E1E56BF00689E66 /* xtea.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50641E1E56BF00689E66 /* xtea.c */; };
+		0F6A50B11E1E56BF00689E66 /* aliyun_iot_network_ssl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50671E1E56BF00689E66 /* aliyun_iot_network_ssl.c */; };
+		0F6A512E1E1E5ABA00689E66 /* aliyun_iot_mqtt_nettype.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50F01E1E5AB900689E66 /* aliyun_iot_mqtt_nettype.c */; };
+		0F6A51301E1E5ABA00689E66 /* aliyun_iot_auth.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50F61E1E5ABA00689E66 /* aliyun_iot_auth.c */; };
+		0F6A51311E1E5ABA00689E66 /* aliyun_iot_mqtt_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50F71E1E5ABA00689E66 /* aliyun_iot_mqtt_client.c */; };
+		0F6A51321E1E5ABA00689E66 /* aliyun_iot_mqtt_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50F81E1E5ABA00689E66 /* aliyun_iot_mqtt_common.c */; };
+		0F6A51331E1E5ABA00689E66 /* MQTTConnectClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50FE1E1E5ABA00689E66 /* MQTTConnectClient.c */; };
+		0F6A51341E1E5ABA00689E66 /* MQTTConnectServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A50FF1E1E5ABA00689E66 /* MQTTConnectServer.c */; };
+		0F6A51351E1E5ABA00689E66 /* MQTTDeserializePublish.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A51001E1E5ABA00689E66 /* MQTTDeserializePublish.c */; };
+		0F6A51361E1E5ABA00689E66 /* MQTTFormat.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A51011E1E5ABA00689E66 /* MQTTFormat.c */; };
+		0F6A51371E1E5ABA00689E66 /* MQTTPacket.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A51031E1E5ABA00689E66 /* MQTTPacket.c */; };
+		0F6A51381E1E5ABA00689E66 /* MQTTSerializePublish.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A51061E1E5ABA00689E66 /* MQTTSerializePublish.c */; };
+		0F6A51391E1E5ABA00689E66 /* MQTTSubscribeClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A51081E1E5ABA00689E66 /* MQTTSubscribeClient.c */; };
+		0F6A513A1E1E5ABA00689E66 /* MQTTSubscribeServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A51091E1E5ABA00689E66 /* MQTTSubscribeServer.c */; };
+		0F6A513B1E1E5ABA00689E66 /* MQTTUnsubscribeClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A510B1E1E5ABA00689E66 /* MQTTUnsubscribeClient.c */; };
+		0F6A513C1E1E5ABA00689E66 /* MQTTUnsubscribeServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A510C1E1E5ABA00689E66 /* MQTTUnsubscribeServer.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F6A4F6A1E1E55BF00689E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F6A4F481E1E55BF00689E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F6A4F4F1E1E55BF00689E66;
+			remoteInfo = test2;
+		};
+		0F6A4F751E1E55BF00689E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F6A4F481E1E55BF00689E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F6A4F4F1E1E55BF00689E66;
+			remoteInfo = test2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F6A4F501E1E55BF00689E66 /* aliyun-iot-device-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aliyun-iot-device-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6A4F541E1E55BF00689E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F6A4F561E1E55BF00689E66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F6A4F571E1E55BF00689E66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F6A4F591E1E55BF00689E66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F6A4F5A1E1E55BF00689E66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F6A4F5D1E1E55BF00689E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F6A4F5F1E1E55BF00689E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F6A4F621E1E55BF00689E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F6A4F641E1E55BF00689E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6A4F691E1E55BF00689E66 /* aliyun-iot-device-sdk.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aliyun-iot-device-sdk.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6A4F6D1E1E55BF00689E66 /* test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2Tests.m; sourceTree = "<group>"; };
+		0F6A4F6F1E1E55BF00689E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6A4F741E1E55BF00689E66 /* aliyun-iot-device-sdk.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aliyun-iot-device-sdk.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6A4F781E1E55BF00689E66 /* test2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2UITests.m; sourceTree = "<group>"; };
+		0F6A4F7A1E1E55BF00689E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6A4F881E1E569800689E66 /* aliyun_iot_auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_auth.h; sourceTree = "<group>"; };
+		0F6A4F891E1E569800689E66 /* aliyun_iot_mqtt_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_mqtt_client.h; sourceTree = "<group>"; };
+		0F6A4F8C1E1E56A000689E66 /* aliyun_iot_common_base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_base64.h; sourceTree = "<group>"; };
+		0F6A4F8D1E1E56A000689E66 /* aliyun_iot_common_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_config.h; sourceTree = "<group>"; };
+		0F6A4F8E1E1E56A000689E66 /* aliyun_iot_common_datatype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_datatype.h; sourceTree = "<group>"; };
+		0F6A4F8F1E1E56A000689E66 /* aliyun_iot_common_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_error.h; sourceTree = "<group>"; };
+		0F6A4F901E1E56A000689E66 /* aliyun_iot_common_hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_hmac.h; sourceTree = "<group>"; };
+		0F6A4F911E1E56A000689E66 /* aliyun_iot_common_httpclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_httpclient.h; sourceTree = "<group>"; };
+		0F6A4F921E1E56A000689E66 /* aliyun_iot_common_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_json.h; sourceTree = "<group>"; };
+		0F6A4F931E1E56A000689E66 /* aliyun_iot_common_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_list.h; sourceTree = "<group>"; };
+		0F6A4F941E1E56A000689E66 /* aliyun_iot_common_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_log.h; sourceTree = "<group>"; };
+		0F6A4F951E1E56A000689E66 /* aliyun_iot_common_md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_md5.h; sourceTree = "<group>"; };
+		0F6A4F961E1E56A000689E66 /* aliyun_iot_common_sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_sha1.h; sourceTree = "<group>"; };
+		0F6A4F971E1E56A000689E66 /* aliyun_iot_common_urlencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_urlencode.h; sourceTree = "<group>"; };
+		0F6A4F981E1E56A000689E66 /* aliyun_iot_common_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_common_util.h; sourceTree = "<group>"; };
+		0F6A4F9A1E1E56A000689E66 /* aliyun_iot_common_base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_base64.c; sourceTree = "<group>"; };
+		0F6A4F9B1E1E56A000689E66 /* aliyun_iot_common_config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_config.c; sourceTree = "<group>"; };
+		0F6A4F9C1E1E56A000689E66 /* aliyun_iot_common_hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_hmac.c; sourceTree = "<group>"; };
+		0F6A4F9D1E1E56A000689E66 /* aliyun_iot_common_httpclient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_httpclient.c; sourceTree = "<group>"; };
+		0F6A4F9E1E1E56A000689E66 /* aliyun_iot_common_json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_json.c; sourceTree = "<group>"; };
+		0F6A4F9F1E1E56A000689E66 /* aliyun_iot_common_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_list.c; sourceTree = "<group>"; };
+		0F6A4FA01E1E56A000689E66 /* aliyun_iot_common_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_log.c; sourceTree = "<group>"; };
+		0F6A4FA11E1E56A000689E66 /* aliyun_iot_common_md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_md5.c; sourceTree = "<group>"; };
+		0F6A4FA21E1E56A000689E66 /* aliyun_iot_common_sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_sha1.c; sourceTree = "<group>"; };
+		0F6A4FA31E1E56A000689E66 /* aliyun_iot_common_urlencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_urlencode.c; sourceTree = "<group>"; };
+		0F6A4FA41E1E56A000689E66 /* aliyun_iot_common_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_common_util.c; sourceTree = "<group>"; };
+		0F6A4FB31E1E56AC00689E66 /* aliyun_iot_platform_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_platform_memory.h; sourceTree = "<group>"; };
+		0F6A4FB41E1E56AC00689E66 /* aliyun_iot_platform_network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_platform_network.h; sourceTree = "<group>"; };
+		0F6A4FB51E1E56AC00689E66 /* aliyun_iot_platform_persistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_platform_persistence.h; sourceTree = "<group>"; };
+		0F6A4FB61E1E56AC00689E66 /* aliyun_iot_platform_pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_platform_pthread.h; sourceTree = "<group>"; };
+		0F6A4FB71E1E56AC00689E66 /* aliyun_iot_platform_random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_platform_random.h; sourceTree = "<group>"; };
+		0F6A4FB81E1E56AC00689E66 /* aliyun_iot_platform_signal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_platform_signal.h; sourceTree = "<group>"; };
+		0F6A4FB91E1E56AC00689E66 /* aliyun_iot_platform_stdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_platform_stdio.h; sourceTree = "<group>"; };
+		0F6A4FBA1E1E56AC00689E66 /* aliyun_iot_platform_threadsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_platform_threadsync.h; sourceTree = "<group>"; };
+		0F6A4FBB1E1E56AC00689E66 /* aliyun_iot_platform_timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_platform_timer.h; sourceTree = "<group>"; };
+		0F6A4FBD1E1E56AC00689E66 /* aliyun_iot_platform_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_platform_memory.c; sourceTree = "<group>"; };
+		0F6A4FBE1E1E56AC00689E66 /* aliyun_iot_platform_network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_platform_network.c; sourceTree = "<group>"; };
+		0F6A4FBF1E1E56AC00689E66 /* aliyun_iot_platform_persistence.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_platform_persistence.c; sourceTree = "<group>"; };
+		0F6A4FC01E1E56AC00689E66 /* aliyun_iot_platform_pthread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_platform_pthread.c; sourceTree = "<group>"; };
+		0F6A4FC11E1E56AC00689E66 /* aliyun_iot_platform_random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_platform_random.c; sourceTree = "<group>"; };
+		0F6A4FC21E1E56AC00689E66 /* aliyun_iot_platform_signal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_platform_signal.c; sourceTree = "<group>"; };
+		0F6A4FC31E1E56AC00689E66 /* aliyun_iot_platform_threadsync.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_platform_threadsync.c; sourceTree = "<group>"; };
+		0F6A4FC41E1E56AC00689E66 /* aliyun_iot_platform_timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_platform_timer.c; sourceTree = "<group>"; };
+		0F6A4FD21E1E56BE00689E66 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		0F6A4FD31E1E56BE00689E66 /* config-ali-iot-basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-ali-iot-basic.h"; sourceTree = "<group>"; };
+		0F6A4FD41E1E56BE00689E66 /* config-ccm-psk-tls1_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-ccm-psk-tls1_2.h"; sourceTree = "<group>"; };
+		0F6A4FD51E1E56BE00689E66 /* config-mini-tls1_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-mini-tls1_1.h"; sourceTree = "<group>"; };
+		0F6A4FD61E1E56BF00689E66 /* config-picocoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-picocoin.h"; sourceTree = "<group>"; };
+		0F6A4FD71E1E56BF00689E66 /* config-suite-b.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-suite-b.h"; sourceTree = "<group>"; };
+		0F6A4FD81E1E56BF00689E66 /* config-thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-thread.h"; sourceTree = "<group>"; };
+		0F6A4FDB1E1E56BF00689E66 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		0F6A4FDC1E1E56BF00689E66 /* aesni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aesni.h; sourceTree = "<group>"; };
+		0F6A4FDD1E1E56BF00689E66 /* arc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arc4.h; sourceTree = "<group>"; };
+		0F6A4FDE1E1E56BF00689E66 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		0F6A4FDF1E1E56BF00689E66 /* asn1write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1write.h; sourceTree = "<group>"; };
+		0F6A4FE01E1E56BF00689E66 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		0F6A4FE11E1E56BF00689E66 /* bignum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bignum.h; sourceTree = "<group>"; };
+		0F6A4FE21E1E56BF00689E66 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		0F6A4FE31E1E56BF00689E66 /* bn_mul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn_mul.h; sourceTree = "<group>"; };
+		0F6A4FE41E1E56BF00689E66 /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		0F6A4FE51E1E56BF00689E66 /* ccm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccm.h; sourceTree = "<group>"; };
+		0F6A4FE61E1E56BF00689E66 /* certs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = certs.h; sourceTree = "<group>"; };
+		0F6A4FE71E1E56BF00689E66 /* check_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = check_config.h; sourceTree = "<group>"; };
+		0F6A4FE81E1E56BF00689E66 /* cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cipher.h; sourceTree = "<group>"; };
+		0F6A4FE91E1E56BF00689E66 /* cipher_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cipher_internal.h; sourceTree = "<group>"; };
+		0F6A4FEA1E1E56BF00689E66 /* compat-1.3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "compat-1.3.h"; sourceTree = "<group>"; };
+		0F6A4FEB1E1E56BF00689E66 /* ctr_drbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctr_drbg.h; sourceTree = "<group>"; };
+		0F6A4FEC1E1E56BF00689E66 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		0F6A4FED1E1E56BF00689E66 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		0F6A4FEE1E1E56BF00689E66 /* dhm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dhm.h; sourceTree = "<group>"; };
+		0F6A4FEF1E1E56BF00689E66 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		0F6A4FF01E1E56BF00689E66 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		0F6A4FF11E1E56BF00689E66 /* ecjpake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecjpake.h; sourceTree = "<group>"; };
+		0F6A4FF21E1E56BF00689E66 /* ecp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecp.h; sourceTree = "<group>"; };
+		0F6A4FF31E1E56BF00689E66 /* entropy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy.h; sourceTree = "<group>"; };
+		0F6A4FF41E1E56BF00689E66 /* entropy_poll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = entropy_poll.h; sourceTree = "<group>"; };
+		0F6A4FF51E1E56BF00689E66 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		0F6A4FF61E1E56BF00689E66 /* gcm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gcm.h; sourceTree = "<group>"; };
+		0F6A4FF71E1E56BF00689E66 /* havege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = havege.h; sourceTree = "<group>"; };
+		0F6A4FF81E1E56BF00689E66 /* hmac_drbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac_drbg.h; sourceTree = "<group>"; };
+		0F6A4FF91E1E56BF00689E66 /* md.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md.h; sourceTree = "<group>"; };
+		0F6A4FFA1E1E56BF00689E66 /* md2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md2.h; sourceTree = "<group>"; };
+		0F6A4FFB1E1E56BF00689E66 /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		0F6A4FFC1E1E56BF00689E66 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		0F6A4FFD1E1E56BF00689E66 /* md_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md_internal.h; sourceTree = "<group>"; };
+		0F6A4FFE1E1E56BF00689E66 /* memory_buffer_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory_buffer_alloc.h; sourceTree = "<group>"; };
+		0F6A4FFF1E1E56BF00689E66 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		0F6A50001E1E56BF00689E66 /* oid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oid.h; sourceTree = "<group>"; };
+		0F6A50011E1E56BF00689E66 /* padlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = padlock.h; sourceTree = "<group>"; };
+		0F6A50021E1E56BF00689E66 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		0F6A50031E1E56BF00689E66 /* pk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pk.h; sourceTree = "<group>"; };
+		0F6A50041E1E56BF00689E66 /* pk_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pk_internal.h; sourceTree = "<group>"; };
+		0F6A50051E1E56BF00689E66 /* pkcs11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs11.h; sourceTree = "<group>"; };
+		0F6A50061E1E56BF00689E66 /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		0F6A50071E1E56BF00689E66 /* pkcs5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs5.h; sourceTree = "<group>"; };
+		0F6A50081E1E56BF00689E66 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		0F6A50091E1E56BF00689E66 /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
+		0F6A500A1E1E56BF00689E66 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		0F6A500B1E1E56BF00689E66 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		0F6A500C1E1E56BF00689E66 /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		0F6A500D1E1E56BF00689E66 /* sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha512.h; sourceTree = "<group>"; };
+		0F6A500E1E1E56BF00689E66 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		0F6A500F1E1E56BF00689E66 /* ssl_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl_cache.h; sourceTree = "<group>"; };
+		0F6A50101E1E56BF00689E66 /* ssl_ciphersuites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl_ciphersuites.h; sourceTree = "<group>"; };
+		0F6A50111E1E56BF00689E66 /* ssl_cookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl_cookie.h; sourceTree = "<group>"; };
+		0F6A50121E1E56BF00689E66 /* ssl_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl_internal.h; sourceTree = "<group>"; };
+		0F6A50131E1E56BF00689E66 /* ssl_ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl_ticket.h; sourceTree = "<group>"; };
+		0F6A50141E1E56BF00689E66 /* threading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threading.h; sourceTree = "<group>"; };
+		0F6A50151E1E56BF00689E66 /* timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timing.h; sourceTree = "<group>"; };
+		0F6A50161E1E56BF00689E66 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		0F6A50171E1E56BF00689E66 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		0F6A50181E1E56BF00689E66 /* x509_crl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_crl.h; sourceTree = "<group>"; };
+		0F6A50191E1E56BF00689E66 /* x509_crt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_crt.h; sourceTree = "<group>"; };
+		0F6A501A1E1E56BF00689E66 /* x509_csr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_csr.h; sourceTree = "<group>"; };
+		0F6A501B1E1E56BF00689E66 /* xtea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xtea.h; sourceTree = "<group>"; };
+		0F6A501D1E1E56BF00689E66 /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		0F6A501E1E1E56BF00689E66 /* aesni.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aesni.c; sourceTree = "<group>"; };
+		0F6A501F1E1E56BF00689E66 /* arc4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arc4.c; sourceTree = "<group>"; };
+		0F6A50201E1E56BF00689E66 /* asn1parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn1parse.c; sourceTree = "<group>"; };
+		0F6A50211E1E56BF00689E66 /* asn1write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn1write.c; sourceTree = "<group>"; };
+		0F6A50221E1E56BF00689E66 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		0F6A50231E1E56BF00689E66 /* bignum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bignum.c; sourceTree = "<group>"; };
+		0F6A50241E1E56BF00689E66 /* blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blowfish.c; sourceTree = "<group>"; };
+		0F6A50251E1E56BF00689E66 /* camellia.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = camellia.c; sourceTree = "<group>"; };
+		0F6A50261E1E56BF00689E66 /* ccm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ccm.c; sourceTree = "<group>"; };
+		0F6A50271E1E56BF00689E66 /* certs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = certs.c; sourceTree = "<group>"; };
+		0F6A50281E1E56BF00689E66 /* cipher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cipher.c; sourceTree = "<group>"; };
+		0F6A50291E1E56BF00689E66 /* cipher_wrap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cipher_wrap.c; sourceTree = "<group>"; };
+		0F6A502A1E1E56BF00689E66 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		0F6A502B1E1E56BF00689E66 /* ctr_drbg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ctr_drbg.c; sourceTree = "<group>"; };
+		0F6A502C1E1E56BF00689E66 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		0F6A502D1E1E56BF00689E66 /* des.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = des.c; sourceTree = "<group>"; };
+		0F6A502E1E1E56BF00689E66 /* dhm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dhm.c; sourceTree = "<group>"; };
+		0F6A502F1E1E56BF00689E66 /* ecdh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecdh.c; sourceTree = "<group>"; };
+		0F6A50301E1E56BF00689E66 /* ecdsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecdsa.c; sourceTree = "<group>"; };
+		0F6A50311E1E56BF00689E66 /* ecjpake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecjpake.c; sourceTree = "<group>"; };
+		0F6A50321E1E56BF00689E66 /* ecp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecp.c; sourceTree = "<group>"; };
+		0F6A50331E1E56BF00689E66 /* ecp_curves.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecp_curves.c; sourceTree = "<group>"; };
+		0F6A50341E1E56BF00689E66 /* entropy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy.c; sourceTree = "<group>"; };
+		0F6A50351E1E56BF00689E66 /* entropy_poll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = entropy_poll.c; sourceTree = "<group>"; };
+		0F6A50361E1E56BF00689E66 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		0F6A50371E1E56BF00689E66 /* gcm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gcm.c; sourceTree = "<group>"; };
+		0F6A50381E1E56BF00689E66 /* havege.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = havege.c; sourceTree = "<group>"; };
+		0F6A50391E1E56BF00689E66 /* hmac_drbg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac_drbg.c; sourceTree = "<group>"; };
+		0F6A503A1E1E56BF00689E66 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0F6A503B1E1E56BF00689E66 /* md.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md.c; sourceTree = "<group>"; };
+		0F6A503C1E1E56BF00689E66 /* md2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md2.c; sourceTree = "<group>"; };
+		0F6A503D1E1E56BF00689E66 /* md4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md4.c; sourceTree = "<group>"; };
+		0F6A503E1E1E56BF00689E66 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		0F6A503F1E1E56BF00689E66 /* md_wrap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md_wrap.c; sourceTree = "<group>"; };
+		0F6A50401E1E56BF00689E66 /* memory_buffer_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory_buffer_alloc.c; sourceTree = "<group>"; };
+		0F6A50411E1E56BF00689E66 /* net.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net.c; sourceTree = "<group>"; };
+		0F6A50421E1E56BF00689E66 /* oid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oid.c; sourceTree = "<group>"; };
+		0F6A50431E1E56BF00689E66 /* padlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = padlock.c; sourceTree = "<group>"; };
+		0F6A50441E1E56BF00689E66 /* pem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pem.c; sourceTree = "<group>"; };
+		0F6A50451E1E56BF00689E66 /* pk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pk.c; sourceTree = "<group>"; };
+		0F6A50461E1E56BF00689E66 /* pk_wrap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pk_wrap.c; sourceTree = "<group>"; };
+		0F6A50471E1E56BF00689E66 /* pkcs11.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pkcs11.c; sourceTree = "<group>"; };
+		0F6A50481E1E56BF00689E66 /* pkcs12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pkcs12.c; sourceTree = "<group>"; };
+		0F6A50491E1E56BF00689E66 /* pkcs5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pkcs5.c; sourceTree = "<group>"; };
+		0F6A504A1E1E56BF00689E66 /* pkparse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pkparse.c; sourceTree = "<group>"; };
+		0F6A504B1E1E56BF00689E66 /* pkwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pkwrite.c; sourceTree = "<group>"; };
+		0F6A504C1E1E56BF00689E66 /* platform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = platform.c; sourceTree = "<group>"; };
+		0F6A504D1E1E56BF00689E66 /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
+		0F6A504E1E1E56BF00689E66 /* rsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rsa.c; sourceTree = "<group>"; };
+		0F6A504F1E1E56BF00689E66 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		0F6A50501E1E56BF00689E66 /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		0F6A50511E1E56BF00689E66 /* sha512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha512.c; sourceTree = "<group>"; };
+		0F6A50521E1E56BF00689E66 /* ssl_cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl_cache.c; sourceTree = "<group>"; };
+		0F6A50531E1E56BF00689E66 /* ssl_ciphersuites.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl_ciphersuites.c; sourceTree = "<group>"; };
+		0F6A50541E1E56BF00689E66 /* ssl_cli.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl_cli.c; sourceTree = "<group>"; };
+		0F6A50551E1E56BF00689E66 /* ssl_cookie.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl_cookie.c; sourceTree = "<group>"; };
+		0F6A50561E1E56BF00689E66 /* ssl_srv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl_srv.c; sourceTree = "<group>"; };
+		0F6A50571E1E56BF00689E66 /* ssl_ticket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl_ticket.c; sourceTree = "<group>"; };
+		0F6A50581E1E56BF00689E66 /* ssl_tls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl_tls.c; sourceTree = "<group>"; };
+		0F6A50591E1E56BF00689E66 /* threading.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = threading.c; sourceTree = "<group>"; };
+		0F6A505A1E1E56BF00689E66 /* timing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timing.c; sourceTree = "<group>"; };
+		0F6A505B1E1E56BF00689E66 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		0F6A505C1E1E56BF00689E66 /* version_features.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version_features.c; sourceTree = "<group>"; };
+		0F6A505D1E1E56BF00689E66 /* x509.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x509.c; sourceTree = "<group>"; };
+		0F6A505E1E1E56BF00689E66 /* x509_create.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x509_create.c; sourceTree = "<group>"; };
+		0F6A505F1E1E56BF00689E66 /* x509_crl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x509_crl.c; sourceTree = "<group>"; };
+		0F6A50601E1E56BF00689E66 /* x509_crt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x509_crt.c; sourceTree = "<group>"; };
+		0F6A50611E1E56BF00689E66 /* x509_csr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x509_csr.c; sourceTree = "<group>"; };
+		0F6A50621E1E56BF00689E66 /* x509write_crt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x509write_crt.c; sourceTree = "<group>"; };
+		0F6A50631E1E56BF00689E66 /* x509write_csr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x509write_csr.c; sourceTree = "<group>"; };
+		0F6A50641E1E56BF00689E66 /* xtea.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xtea.c; sourceTree = "<group>"; };
+		0F6A50671E1E56BF00689E66 /* aliyun_iot_network_ssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_network_ssl.c; sourceTree = "<group>"; };
+		0F6A50681E1E56BF00689E66 /* aliyun_iot_network_ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_network_ssl.h; sourceTree = "<group>"; };
+		0F6A50F01E1E5AB900689E66 /* aliyun_iot_mqtt_nettype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_mqtt_nettype.c; sourceTree = "<group>"; };
+		0F6A50F11E1E5AB900689E66 /* aliyun_iot_mqtt_nettype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_mqtt_nettype.h; sourceTree = "<group>"; };
+		0F6A50F61E1E5ABA00689E66 /* aliyun_iot_auth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_auth.c; sourceTree = "<group>"; };
+		0F6A50F71E1E5ABA00689E66 /* aliyun_iot_mqtt_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_mqtt_client.c; sourceTree = "<group>"; };
+		0F6A50F81E1E5ABA00689E66 /* aliyun_iot_mqtt_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aliyun_iot_mqtt_common.c; sourceTree = "<group>"; };
+		0F6A50F91E1E5ABA00689E66 /* aliyun_iot_mqtt_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_mqtt_common.h; sourceTree = "<group>"; };
+		0F6A50FA1E1E5ABA00689E66 /* aliyun_iot_mqtt_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliyun_iot_mqtt_internal.h; sourceTree = "<group>"; };
+		0F6A50FD1E1E5ABA00689E66 /* MQTTConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTConnect.h; sourceTree = "<group>"; };
+		0F6A50FE1E1E5ABA00689E66 /* MQTTConnectClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTConnectClient.c; sourceTree = "<group>"; };
+		0F6A50FF1E1E5ABA00689E66 /* MQTTConnectServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTConnectServer.c; sourceTree = "<group>"; };
+		0F6A51001E1E5ABA00689E66 /* MQTTDeserializePublish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTDeserializePublish.c; sourceTree = "<group>"; };
+		0F6A51011E1E5ABA00689E66 /* MQTTFormat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTFormat.c; sourceTree = "<group>"; };
+		0F6A51021E1E5ABA00689E66 /* MQTTFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTFormat.h; sourceTree = "<group>"; };
+		0F6A51031E1E5ABA00689E66 /* MQTTPacket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTPacket.c; sourceTree = "<group>"; };
+		0F6A51041E1E5ABA00689E66 /* MQTTPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTPacket.h; sourceTree = "<group>"; };
+		0F6A51051E1E5ABA00689E66 /* MQTTPublish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTPublish.h; sourceTree = "<group>"; };
+		0F6A51061E1E5ABA00689E66 /* MQTTSerializePublish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTSerializePublish.c; sourceTree = "<group>"; };
+		0F6A51071E1E5ABA00689E66 /* MQTTSubscribe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSubscribe.h; sourceTree = "<group>"; };
+		0F6A51081E1E5ABA00689E66 /* MQTTSubscribeClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTSubscribeClient.c; sourceTree = "<group>"; };
+		0F6A51091E1E5ABA00689E66 /* MQTTSubscribeServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTSubscribeServer.c; sourceTree = "<group>"; };
+		0F6A510A1E1E5ABA00689E66 /* MQTTUnsubscribe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTUnsubscribe.h; sourceTree = "<group>"; };
+		0F6A510B1E1E5ABA00689E66 /* MQTTUnsubscribeClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTUnsubscribeClient.c; sourceTree = "<group>"; };
+		0F6A510C1E1E5ABA00689E66 /* MQTTUnsubscribeServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MQTTUnsubscribeServer.c; sourceTree = "<group>"; };
+		0F6A510D1E1E5ABA00689E66 /* StackTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackTrace.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F6A4F4D1E1E55BF00689E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6A4F661E1E55BF00689E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6A4F711E1E55BF00689E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6A4F471E1E55BF00689E66 = {
+			isa = PBXGroup;
+			children = (
+				0F6A50B21E1E5AB900689E66 /* src */,
+				0F6A4FCD1E1E56BE00689E66 /* public_libs */,
+				0F6A4FB01E1E56AC00689E66 /* platform */,
+				0F6A4F8A1E1E56A000689E66 /* common */,
+				0F6A4F861E1E569800689E66 /* include */,
+				0F6A4F521E1E55BF00689E66 /* aliyun-iot-device-sdk */,
+				0F6A4F6C1E1E55BF00689E66 /* aliyun-iot-device-sdkTests */,
+				0F6A4F771E1E55BF00689E66 /* aliyun-iot-device-sdkUITests */,
+				0F6A4F511E1E55BF00689E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F6A4F511E1E55BF00689E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F501E1E55BF00689E66 /* aliyun-iot-device-sdk.app */,
+				0F6A4F691E1E55BF00689E66 /* aliyun-iot-device-sdk.xctest */,
+				0F6A4F741E1E55BF00689E66 /* aliyun-iot-device-sdk.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F6A4F521E1E55BF00689E66 /* aliyun-iot-device-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F561E1E55BF00689E66 /* AppDelegate.h */,
+				0F6A4F571E1E55BF00689E66 /* AppDelegate.m */,
+				0F6A4F591E1E55BF00689E66 /* ViewController.h */,
+				0F6A4F5A1E1E55BF00689E66 /* ViewController.m */,
+				0F6A4F5C1E1E55BF00689E66 /* Main.storyboard */,
+				0F6A4F5F1E1E55BF00689E66 /* Assets.xcassets */,
+				0F6A4F611E1E55BF00689E66 /* LaunchScreen.storyboard */,
+				0F6A4F641E1E55BF00689E66 /* Info.plist */,
+				0F6A4F531E1E55BF00689E66 /* Supporting Files */,
+			);
+			name = "aliyun-iot-device-sdk";
+			path = test2;
+			sourceTree = "<group>";
+		};
+		0F6A4F531E1E55BF00689E66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F541E1E55BF00689E66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F6A4F6C1E1E55BF00689E66 /* aliyun-iot-device-sdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F6D1E1E55BF00689E66 /* test2Tests.m */,
+				0F6A4F6F1E1E55BF00689E66 /* Info.plist */,
+			);
+			name = "aliyun-iot-device-sdkTests";
+			path = test2Tests;
+			sourceTree = "<group>";
+		};
+		0F6A4F771E1E55BF00689E66 /* aliyun-iot-device-sdkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F781E1E55BF00689E66 /* test2UITests.m */,
+				0F6A4F7A1E1E55BF00689E66 /* Info.plist */,
+			);
+			name = "aliyun-iot-device-sdkUITests";
+			path = test2UITests;
+			sourceTree = "<group>";
+		};
+		0F6A4F861E1E569800689E66 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F871E1E569800689E66 /* mqtt */,
+			);
+			name = include;
+			path = ../include;
+			sourceTree = "<group>";
+		};
+		0F6A4F871E1E569800689E66 /* mqtt */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F881E1E569800689E66 /* aliyun_iot_auth.h */,
+				0F6A4F891E1E569800689E66 /* aliyun_iot_mqtt_client.h */,
+			);
+			path = mqtt;
+			sourceTree = "<group>";
+		};
+		0F6A4F8A1E1E56A000689E66 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F8B1E1E56A000689E66 /* inc */,
+				0F6A4F991E1E56A000689E66 /* src */,
+			);
+			name = common;
+			path = ../common;
+			sourceTree = "<group>";
+		};
+		0F6A4F8B1E1E56A000689E66 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F8C1E1E56A000689E66 /* aliyun_iot_common_base64.h */,
+				0F6A4F8D1E1E56A000689E66 /* aliyun_iot_common_config.h */,
+				0F6A4F8E1E1E56A000689E66 /* aliyun_iot_common_datatype.h */,
+				0F6A4F8F1E1E56A000689E66 /* aliyun_iot_common_error.h */,
+				0F6A4F901E1E56A000689E66 /* aliyun_iot_common_hmac.h */,
+				0F6A4F911E1E56A000689E66 /* aliyun_iot_common_httpclient.h */,
+				0F6A4F921E1E56A000689E66 /* aliyun_iot_common_json.h */,
+				0F6A4F931E1E56A000689E66 /* aliyun_iot_common_list.h */,
+				0F6A4F941E1E56A000689E66 /* aliyun_iot_common_log.h */,
+				0F6A4F951E1E56A000689E66 /* aliyun_iot_common_md5.h */,
+				0F6A4F961E1E56A000689E66 /* aliyun_iot_common_sha1.h */,
+				0F6A4F971E1E56A000689E66 /* aliyun_iot_common_urlencode.h */,
+				0F6A4F981E1E56A000689E66 /* aliyun_iot_common_util.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		0F6A4F991E1E56A000689E66 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4F9A1E1E56A000689E66 /* aliyun_iot_common_base64.c */,
+				0F6A4F9B1E1E56A000689E66 /* aliyun_iot_common_config.c */,
+				0F6A4F9C1E1E56A000689E66 /* aliyun_iot_common_hmac.c */,
+				0F6A4F9D1E1E56A000689E66 /* aliyun_iot_common_httpclient.c */,
+				0F6A4F9E1E1E56A000689E66 /* aliyun_iot_common_json.c */,
+				0F6A4F9F1E1E56A000689E66 /* aliyun_iot_common_list.c */,
+				0F6A4FA01E1E56A000689E66 /* aliyun_iot_common_log.c */,
+				0F6A4FA11E1E56A000689E66 /* aliyun_iot_common_md5.c */,
+				0F6A4FA21E1E56A000689E66 /* aliyun_iot_common_sha1.c */,
+				0F6A4FA31E1E56A000689E66 /* aliyun_iot_common_urlencode.c */,
+				0F6A4FA41E1E56A000689E66 /* aliyun_iot_common_util.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0F6A4FB01E1E56AC00689E66 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FB11E1E56AC00689E66 /* linux */,
+			);
+			name = platform;
+			path = ../platform;
+			sourceTree = "<group>";
+		};
+		0F6A4FB11E1E56AC00689E66 /* linux */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FB21E1E56AC00689E66 /* inc */,
+				0F6A4FBC1E1E56AC00689E66 /* src */,
+			);
+			path = linux;
+			sourceTree = "<group>";
+		};
+		0F6A4FB21E1E56AC00689E66 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FB31E1E56AC00689E66 /* aliyun_iot_platform_memory.h */,
+				0F6A4FB41E1E56AC00689E66 /* aliyun_iot_platform_network.h */,
+				0F6A4FB51E1E56AC00689E66 /* aliyun_iot_platform_persistence.h */,
+				0F6A4FB61E1E56AC00689E66 /* aliyun_iot_platform_pthread.h */,
+				0F6A4FB71E1E56AC00689E66 /* aliyun_iot_platform_random.h */,
+				0F6A4FB81E1E56AC00689E66 /* aliyun_iot_platform_signal.h */,
+				0F6A4FB91E1E56AC00689E66 /* aliyun_iot_platform_stdio.h */,
+				0F6A4FBA1E1E56AC00689E66 /* aliyun_iot_platform_threadsync.h */,
+				0F6A4FBB1E1E56AC00689E66 /* aliyun_iot_platform_timer.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		0F6A4FBC1E1E56AC00689E66 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FBD1E1E56AC00689E66 /* aliyun_iot_platform_memory.c */,
+				0F6A4FBE1E1E56AC00689E66 /* aliyun_iot_platform_network.c */,
+				0F6A4FBF1E1E56AC00689E66 /* aliyun_iot_platform_persistence.c */,
+				0F6A4FC01E1E56AC00689E66 /* aliyun_iot_platform_pthread.c */,
+				0F6A4FC11E1E56AC00689E66 /* aliyun_iot_platform_random.c */,
+				0F6A4FC21E1E56AC00689E66 /* aliyun_iot_platform_signal.c */,
+				0F6A4FC31E1E56AC00689E66 /* aliyun_iot_platform_threadsync.c */,
+				0F6A4FC41E1E56AC00689E66 /* aliyun_iot_platform_timer.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0F6A4FCD1E1E56BE00689E66 /* public_libs */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FCE1E1E56BE00689E66 /* mbedtls */,
+				0F6A50651E1E56BF00689E66 /* porting */,
+			);
+			name = public_libs;
+			path = ../public_libs;
+			sourceTree = "<group>";
+		};
+		0F6A4FCE1E1E56BE00689E66 /* mbedtls */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FCF1E1E56BE00689E66 /* configs */,
+				0F6A4FD91E1E56BF00689E66 /* include */,
+				0F6A501C1E1E56BF00689E66 /* library */,
+			);
+			path = mbedtls;
+			sourceTree = "<group>";
+		};
+		0F6A4FCF1E1E56BE00689E66 /* configs */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FD01E1E56BE00689E66 /* aliyun_iot */,
+				0F6A4FD31E1E56BE00689E66 /* config-ali-iot-basic.h */,
+				0F6A4FD41E1E56BE00689E66 /* config-ccm-psk-tls1_2.h */,
+				0F6A4FD51E1E56BE00689E66 /* config-mini-tls1_1.h */,
+				0F6A4FD61E1E56BF00689E66 /* config-picocoin.h */,
+				0F6A4FD71E1E56BF00689E66 /* config-suite-b.h */,
+				0F6A4FD81E1E56BF00689E66 /* config-thread.h */,
+			);
+			path = configs;
+			sourceTree = "<group>";
+		};
+		0F6A4FD01E1E56BE00689E66 /* aliyun_iot */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FD11E1E56BE00689E66 /* mbedtls */,
+			);
+			path = aliyun_iot;
+			sourceTree = "<group>";
+		};
+		0F6A4FD11E1E56BE00689E66 /* mbedtls */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FD21E1E56BE00689E66 /* config.h */,
+			);
+			path = mbedtls;
+			sourceTree = "<group>";
+		};
+		0F6A4FD91E1E56BF00689E66 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FDA1E1E56BF00689E66 /* mbedtls */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0F6A4FDA1E1E56BF00689E66 /* mbedtls */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A4FDB1E1E56BF00689E66 /* aes.h */,
+				0F6A4FDC1E1E56BF00689E66 /* aesni.h */,
+				0F6A4FDD1E1E56BF00689E66 /* arc4.h */,
+				0F6A4FDE1E1E56BF00689E66 /* asn1.h */,
+				0F6A4FDF1E1E56BF00689E66 /* asn1write.h */,
+				0F6A4FE01E1E56BF00689E66 /* base64.h */,
+				0F6A4FE11E1E56BF00689E66 /* bignum.h */,
+				0F6A4FE21E1E56BF00689E66 /* blowfish.h */,
+				0F6A4FE31E1E56BF00689E66 /* bn_mul.h */,
+				0F6A4FE41E1E56BF00689E66 /* camellia.h */,
+				0F6A4FE51E1E56BF00689E66 /* ccm.h */,
+				0F6A4FE61E1E56BF00689E66 /* certs.h */,
+				0F6A4FE71E1E56BF00689E66 /* check_config.h */,
+				0F6A4FE81E1E56BF00689E66 /* cipher.h */,
+				0F6A4FE91E1E56BF00689E66 /* cipher_internal.h */,
+				0F6A4FEA1E1E56BF00689E66 /* compat-1.3.h */,
+				0F6A4FEB1E1E56BF00689E66 /* ctr_drbg.h */,
+				0F6A4FEC1E1E56BF00689E66 /* debug.h */,
+				0F6A4FED1E1E56BF00689E66 /* des.h */,
+				0F6A4FEE1E1E56BF00689E66 /* dhm.h */,
+				0F6A4FEF1E1E56BF00689E66 /* ecdh.h */,
+				0F6A4FF01E1E56BF00689E66 /* ecdsa.h */,
+				0F6A4FF11E1E56BF00689E66 /* ecjpake.h */,
+				0F6A4FF21E1E56BF00689E66 /* ecp.h */,
+				0F6A4FF31E1E56BF00689E66 /* entropy.h */,
+				0F6A4FF41E1E56BF00689E66 /* entropy_poll.h */,
+				0F6A4FF51E1E56BF00689E66 /* error.h */,
+				0F6A4FF61E1E56BF00689E66 /* gcm.h */,
+				0F6A4FF71E1E56BF00689E66 /* havege.h */,
+				0F6A4FF81E1E56BF00689E66 /* hmac_drbg.h */,
+				0F6A4FF91E1E56BF00689E66 /* md.h */,
+				0F6A4FFA1E1E56BF00689E66 /* md2.h */,
+				0F6A4FFB1E1E56BF00689E66 /* md4.h */,
+				0F6A4FFC1E1E56BF00689E66 /* md5.h */,
+				0F6A4FFD1E1E56BF00689E66 /* md_internal.h */,
+				0F6A4FFE1E1E56BF00689E66 /* memory_buffer_alloc.h */,
+				0F6A4FFF1E1E56BF00689E66 /* net.h */,
+				0F6A50001E1E56BF00689E66 /* oid.h */,
+				0F6A50011E1E56BF00689E66 /* padlock.h */,
+				0F6A50021E1E56BF00689E66 /* pem.h */,
+				0F6A50031E1E56BF00689E66 /* pk.h */,
+				0F6A50041E1E56BF00689E66 /* pk_internal.h */,
+				0F6A50051E1E56BF00689E66 /* pkcs11.h */,
+				0F6A50061E1E56BF00689E66 /* pkcs12.h */,
+				0F6A50071E1E56BF00689E66 /* pkcs5.h */,
+				0F6A50081E1E56BF00689E66 /* platform.h */,
+				0F6A50091E1E56BF00689E66 /* ripemd160.h */,
+				0F6A500A1E1E56BF00689E66 /* rsa.h */,
+				0F6A500B1E1E56BF00689E66 /* sha1.h */,
+				0F6A500C1E1E56BF00689E66 /* sha256.h */,
+				0F6A500D1E1E56BF00689E66 /* sha512.h */,
+				0F6A500E1E1E56BF00689E66 /* ssl.h */,
+				0F6A500F1E1E56BF00689E66 /* ssl_cache.h */,
+				0F6A50101E1E56BF00689E66 /* ssl_ciphersuites.h */,
+				0F6A50111E1E56BF00689E66 /* ssl_cookie.h */,
+				0F6A50121E1E56BF00689E66 /* ssl_internal.h */,
+				0F6A50131E1E56BF00689E66 /* ssl_ticket.h */,
+				0F6A50141E1E56BF00689E66 /* threading.h */,
+				0F6A50151E1E56BF00689E66 /* timing.h */,
+				0F6A50161E1E56BF00689E66 /* version.h */,
+				0F6A50171E1E56BF00689E66 /* x509.h */,
+				0F6A50181E1E56BF00689E66 /* x509_crl.h */,
+				0F6A50191E1E56BF00689E66 /* x509_crt.h */,
+				0F6A501A1E1E56BF00689E66 /* x509_csr.h */,
+				0F6A501B1E1E56BF00689E66 /* xtea.h */,
+			);
+			path = mbedtls;
+			sourceTree = "<group>";
+		};
+		0F6A501C1E1E56BF00689E66 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A501D1E1E56BF00689E66 /* aes.c */,
+				0F6A501E1E1E56BF00689E66 /* aesni.c */,
+				0F6A501F1E1E56BF00689E66 /* arc4.c */,
+				0F6A50201E1E56BF00689E66 /* asn1parse.c */,
+				0F6A50211E1E56BF00689E66 /* asn1write.c */,
+				0F6A50221E1E56BF00689E66 /* base64.c */,
+				0F6A50231E1E56BF00689E66 /* bignum.c */,
+				0F6A50241E1E56BF00689E66 /* blowfish.c */,
+				0F6A50251E1E56BF00689E66 /* camellia.c */,
+				0F6A50261E1E56BF00689E66 /* ccm.c */,
+				0F6A50271E1E56BF00689E66 /* certs.c */,
+				0F6A50281E1E56BF00689E66 /* cipher.c */,
+				0F6A50291E1E56BF00689E66 /* cipher_wrap.c */,
+				0F6A502A1E1E56BF00689E66 /* CMakeLists.txt */,
+				0F6A502B1E1E56BF00689E66 /* ctr_drbg.c */,
+				0F6A502C1E1E56BF00689E66 /* debug.c */,
+				0F6A502D1E1E56BF00689E66 /* des.c */,
+				0F6A502E1E1E56BF00689E66 /* dhm.c */,
+				0F6A502F1E1E56BF00689E66 /* ecdh.c */,
+				0F6A50301E1E56BF00689E66 /* ecdsa.c */,
+				0F6A50311E1E56BF00689E66 /* ecjpake.c */,
+				0F6A50321E1E56BF00689E66 /* ecp.c */,
+				0F6A50331E1E56BF00689E66 /* ecp_curves.c */,
+				0F6A50341E1E56BF00689E66 /* entropy.c */,
+				0F6A50351E1E56BF00689E66 /* entropy_poll.c */,
+				0F6A50361E1E56BF00689E66 /* error.c */,
+				0F6A50371E1E56BF00689E66 /* gcm.c */,
+				0F6A50381E1E56BF00689E66 /* havege.c */,
+				0F6A50391E1E56BF00689E66 /* hmac_drbg.c */,
+				0F6A503A1E1E56BF00689E66 /* Makefile */,
+				0F6A503B1E1E56BF00689E66 /* md.c */,
+				0F6A503C1E1E56BF00689E66 /* md2.c */,
+				0F6A503D1E1E56BF00689E66 /* md4.c */,
+				0F6A503E1E1E56BF00689E66 /* md5.c */,
+				0F6A503F1E1E56BF00689E66 /* md_wrap.c */,
+				0F6A50401E1E56BF00689E66 /* memory_buffer_alloc.c */,
+				0F6A50411E1E56BF00689E66 /* net.c */,
+				0F6A50421E1E56BF00689E66 /* oid.c */,
+				0F6A50431E1E56BF00689E66 /* padlock.c */,
+				0F6A50441E1E56BF00689E66 /* pem.c */,
+				0F6A50451E1E56BF00689E66 /* pk.c */,
+				0F6A50461E1E56BF00689E66 /* pk_wrap.c */,
+				0F6A50471E1E56BF00689E66 /* pkcs11.c */,
+				0F6A50481E1E56BF00689E66 /* pkcs12.c */,
+				0F6A50491E1E56BF00689E66 /* pkcs5.c */,
+				0F6A504A1E1E56BF00689E66 /* pkparse.c */,
+				0F6A504B1E1E56BF00689E66 /* pkwrite.c */,
+				0F6A504C1E1E56BF00689E66 /* platform.c */,
+				0F6A504D1E1E56BF00689E66 /* ripemd160.c */,
+				0F6A504E1E1E56BF00689E66 /* rsa.c */,
+				0F6A504F1E1E56BF00689E66 /* sha1.c */,
+				0F6A50501E1E56BF00689E66 /* sha256.c */,
+				0F6A50511E1E56BF00689E66 /* sha512.c */,
+				0F6A50521E1E56BF00689E66 /* ssl_cache.c */,
+				0F6A50531E1E56BF00689E66 /* ssl_ciphersuites.c */,
+				0F6A50541E1E56BF00689E66 /* ssl_cli.c */,
+				0F6A50551E1E56BF00689E66 /* ssl_cookie.c */,
+				0F6A50561E1E56BF00689E66 /* ssl_srv.c */,
+				0F6A50571E1E56BF00689E66 /* ssl_ticket.c */,
+				0F6A50581E1E56BF00689E66 /* ssl_tls.c */,
+				0F6A50591E1E56BF00689E66 /* threading.c */,
+				0F6A505A1E1E56BF00689E66 /* timing.c */,
+				0F6A505B1E1E56BF00689E66 /* version.c */,
+				0F6A505C1E1E56BF00689E66 /* version_features.c */,
+				0F6A505D1E1E56BF00689E66 /* x509.c */,
+				0F6A505E1E1E56BF00689E66 /* x509_create.c */,
+				0F6A505F1E1E56BF00689E66 /* x509_crl.c */,
+				0F6A50601E1E56BF00689E66 /* x509_crt.c */,
+				0F6A50611E1E56BF00689E66 /* x509_csr.c */,
+				0F6A50621E1E56BF00689E66 /* x509write_crt.c */,
+				0F6A50631E1E56BF00689E66 /* x509write_csr.c */,
+				0F6A50641E1E56BF00689E66 /* xtea.c */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		0F6A50651E1E56BF00689E66 /* porting */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50661E1E56BF00689E66 /* mbedtls */,
+			);
+			path = porting;
+			sourceTree = "<group>";
+		};
+		0F6A50661E1E56BF00689E66 /* mbedtls */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50671E1E56BF00689E66 /* aliyun_iot_network_ssl.c */,
+				0F6A50681E1E56BF00689E66 /* aliyun_iot_network_ssl.h */,
+			);
+			path = mbedtls;
+			sourceTree = "<group>";
+		};
+		0F6A50B21E1E5AB900689E66 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50E71E1E5AB900689E66 /* mqtt */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		0F6A50E71E1E5AB900689E66 /* mqtt */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50EC1E1E5AB900689E66 /* MQTTClient-C */,
+				0F6A50FB1E1E5ABA00689E66 /* MQTTPacket */,
+			);
+			path = mqtt;
+			sourceTree = "<group>";
+		};
+		0F6A50EC1E1E5AB900689E66 /* MQTTClient-C */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50EE1E1E5AB900689E66 /* nettype */,
+				0F6A50F51E1E5ABA00689E66 /* src */,
+			);
+			path = "MQTTClient-C";
+			sourceTree = "<group>";
+		};
+		0F6A50EE1E1E5AB900689E66 /* nettype */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50EF1E1E5AB900689E66 /* tcp */,
+			);
+			path = nettype;
+			sourceTree = "<group>";
+		};
+		0F6A50EF1E1E5AB900689E66 /* tcp */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50F01E1E5AB900689E66 /* aliyun_iot_mqtt_nettype.c */,
+				0F6A50F11E1E5AB900689E66 /* aliyun_iot_mqtt_nettype.h */,
+			);
+			path = tcp;
+			sourceTree = "<group>";
+		};
+		0F6A50F51E1E5ABA00689E66 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50F61E1E5ABA00689E66 /* aliyun_iot_auth.c */,
+				0F6A50F71E1E5ABA00689E66 /* aliyun_iot_mqtt_client.c */,
+				0F6A50F81E1E5ABA00689E66 /* aliyun_iot_mqtt_common.c */,
+				0F6A50F91E1E5ABA00689E66 /* aliyun_iot_mqtt_common.h */,
+				0F6A50FA1E1E5ABA00689E66 /* aliyun_iot_mqtt_internal.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0F6A50FB1E1E5ABA00689E66 /* MQTTPacket */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50FC1E1E5ABA00689E66 /* src */,
+			);
+			path = MQTTPacket;
+			sourceTree = "<group>";
+		};
+		0F6A50FC1E1E5ABA00689E66 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A50FD1E1E5ABA00689E66 /* MQTTConnect.h */,
+				0F6A50FE1E1E5ABA00689E66 /* MQTTConnectClient.c */,
+				0F6A50FF1E1E5ABA00689E66 /* MQTTConnectServer.c */,
+				0F6A51001E1E5ABA00689E66 /* MQTTDeserializePublish.c */,
+				0F6A51011E1E5ABA00689E66 /* MQTTFormat.c */,
+				0F6A51021E1E5ABA00689E66 /* MQTTFormat.h */,
+				0F6A51031E1E5ABA00689E66 /* MQTTPacket.c */,
+				0F6A51041E1E5ABA00689E66 /* MQTTPacket.h */,
+				0F6A51051E1E5ABA00689E66 /* MQTTPublish.h */,
+				0F6A51061E1E5ABA00689E66 /* MQTTSerializePublish.c */,
+				0F6A51071E1E5ABA00689E66 /* MQTTSubscribe.h */,
+				0F6A51081E1E5ABA00689E66 /* MQTTSubscribeClient.c */,
+				0F6A51091E1E5ABA00689E66 /* MQTTSubscribeServer.c */,
+				0F6A510A1E1E5ABA00689E66 /* MQTTUnsubscribe.h */,
+				0F6A510B1E1E5ABA00689E66 /* MQTTUnsubscribeClient.c */,
+				0F6A510C1E1E5ABA00689E66 /* MQTTUnsubscribeServer.c */,
+				0F6A510D1E1E5ABA00689E66 /* StackTrace.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F6A4F4F1E1E55BF00689E66 /* aliyun-iot-device-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6A4F7D1E1E55BF00689E66 /* Build configuration list for PBXNativeTarget "aliyun-iot-device-sdk" */;
+			buildPhases = (
+				0F6A4F4C1E1E55BF00689E66 /* Sources */,
+				0F6A4F4D1E1E55BF00689E66 /* Frameworks */,
+				0F6A4F4E1E1E55BF00689E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "aliyun-iot-device-sdk";
+			productName = test2;
+			productReference = 0F6A4F501E1E55BF00689E66 /* aliyun-iot-device-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F6A4F681E1E55BF00689E66 /* aliyun-iot-device-sdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6A4F801E1E55BF00689E66 /* Build configuration list for PBXNativeTarget "aliyun-iot-device-sdkTests" */;
+			buildPhases = (
+				0F6A4F651E1E55BF00689E66 /* Sources */,
+				0F6A4F661E1E55BF00689E66 /* Frameworks */,
+				0F6A4F671E1E55BF00689E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6A4F6B1E1E55BF00689E66 /* PBXTargetDependency */,
+			);
+			name = "aliyun-iot-device-sdkTests";
+			productName = test2Tests;
+			productReference = 0F6A4F691E1E55BF00689E66 /* aliyun-iot-device-sdk.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F6A4F731E1E55BF00689E66 /* aliyun-iot-device-sdkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6A4F831E1E55BF00689E66 /* Build configuration list for PBXNativeTarget "aliyun-iot-device-sdkUITests" */;
+			buildPhases = (
+				0F6A4F701E1E55BF00689E66 /* Sources */,
+				0F6A4F711E1E55BF00689E66 /* Frameworks */,
+				0F6A4F721E1E55BF00689E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6A4F761E1E55BF00689E66 /* PBXTargetDependency */,
+			);
+			name = "aliyun-iot-device-sdkUITests";
+			productName = test2UITests;
+			productReference = 0F6A4F741E1E55BF00689E66 /* aliyun-iot-device-sdk.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F6A4F481E1E55BF00689E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 11;
+				TargetAttributes = {
+					0F6A4F4F1E1E55BF00689E66 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VCK3J625GQ;
+					};
+					0F6A4F681E1E55BF00689E66 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0F6A4F4F1E1E55BF00689E66;
+					};
+					0F6A4F731E1E55BF00689E66 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0F6A4F4F1E1E55BF00689E66;
+					};
+				};
+			};
+			buildConfigurationList = 0F6A4F4B1E1E55BF00689E66 /* Build configuration list for PBXProject "aliyun-iot-device-sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F6A4F471E1E55BF00689E66;
+			productRefGroup = 0F6A4F511E1E55BF00689E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F6A4F4F1E1E55BF00689E66 /* aliyun-iot-device-sdk */,
+				0F6A4F681E1E55BF00689E66 /* aliyun-iot-device-sdkTests */,
+				0F6A4F731E1E55BF00689E66 /* aliyun-iot-device-sdkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F6A4F4E1E1E55BF00689E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6A50761E1E56BF00689E66 /* CMakeLists.txt in Resources */,
+				0F6A4F631E1E55BF00689E66 /* LaunchScreen.storyboard in Resources */,
+				0F6A4F601E1E55BF00689E66 /* Assets.xcassets in Resources */,
+				0F6A4F5E1E1E55BF00689E66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6A4F671E1E55BF00689E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6A4F721E1E55BF00689E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F6A4F4C1E1E55BF00689E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6A50911E1E56BF00689E66 /* pk.c in Sources */,
+				0F6A513B1E1E5ABA00689E66 /* MQTTUnsubscribeClient.c in Sources */,
+				0F6A506F1E1E56BF00689E66 /* bignum.c in Sources */,
+				0F6A50A31E1E56BF00689E66 /* ssl_ticket.c in Sources */,
+				0F6A506A1E1E56BF00689E66 /* aesni.c in Sources */,
+				0F6A51361E1E5ABA00689E66 /* MQTTFormat.c in Sources */,
+				0F6A51331E1E5ABA00689E66 /* MQTTConnectClient.c in Sources */,
+				0F6A50A71E1E56BF00689E66 /* version.c in Sources */,
+				0F6A51321E1E5ABA00689E66 /* aliyun_iot_mqtt_common.c in Sources */,
+				0F6A50A01E1E56BF00689E66 /* ssl_cli.c in Sources */,
+				0F6A4FC71E1E56AC00689E66 /* aliyun_iot_platform_persistence.c in Sources */,
+				0F6A50991E1E56BF00689E66 /* ripemd160.c in Sources */,
+				0F6A507A1E1E56BF00689E66 /* dhm.c in Sources */,
+				0F6A512E1E1E5ABA00689E66 /* aliyun_iot_mqtt_nettype.c in Sources */,
+				0F6A506E1E1E56BF00689E66 /* base64.c in Sources */,
+				0F6A507D1E1E56BF00689E66 /* ecjpake.c in Sources */,
+				0F6A4FA51E1E56A000689E66 /* aliyun_iot_common_base64.c in Sources */,
+				0F6A4FA61E1E56A000689E66 /* aliyun_iot_common_config.c in Sources */,
+				0F6A508F1E1E56BF00689E66 /* padlock.c in Sources */,
+				0F6A50821E1E56BF00689E66 /* error.c in Sources */,
+				0F6A509B1E1E56BF00689E66 /* sha1.c in Sources */,
+				0F6A50851E1E56BF00689E66 /* hmac_drbg.c in Sources */,
+				0F6A513A1E1E5ABA00689E66 /* MQTTSubscribeServer.c in Sources */,
+				0F6A50A91E1E56BF00689E66 /* x509.c in Sources */,
+				0F6A50951E1E56BF00689E66 /* pkcs5.c in Sources */,
+				0F6A50881E1E56BF00689E66 /* md2.c in Sources */,
+				0F6A50AF1E1E56BF00689E66 /* x509write_csr.c in Sources */,
+				0F6A508A1E1E56BF00689E66 /* md5.c in Sources */,
+				0F6A4FAD1E1E56A000689E66 /* aliyun_iot_common_sha1.c in Sources */,
+				0F6A4F5B1E1E55BF00689E66 /* ViewController.m in Sources */,
+				0F6A50741E1E56BF00689E66 /* cipher.c in Sources */,
+				0F6A4F581E1E55BF00689E66 /* AppDelegate.m in Sources */,
+				0F6A50771E1E56BF00689E66 /* ctr_drbg.c in Sources */,
+				0F6A509A1E1E56BF00689E66 /* rsa.c in Sources */,
+				0F6A50AE1E1E56BF00689E66 /* x509write_crt.c in Sources */,
+				0F6A509E1E1E56BF00689E66 /* ssl_cache.c in Sources */,
+				0F6A50A81E1E56BF00689E66 /* version_features.c in Sources */,
+				0F6A51341E1E5ABA00689E66 /* MQTTConnectServer.c in Sources */,
+				0F6A50781E1E56BF00689E66 /* debug.c in Sources */,
+				0F6A50AC1E1E56BF00689E66 /* x509_crt.c in Sources */,
+				0F6A51301E1E5ABA00689E66 /* aliyun_iot_auth.c in Sources */,
+				0F6A50A21E1E56BF00689E66 /* ssl_srv.c in Sources */,
+				0F6A50961E1E56BF00689E66 /* pkparse.c in Sources */,
+				0F6A50721E1E56BF00689E66 /* ccm.c in Sources */,
+				0F6A51391E1E5ABA00689E66 /* MQTTSubscribeClient.c in Sources */,
+				0F6A50701E1E56BF00689E66 /* blowfish.c in Sources */,
+				0F6A509F1E1E56BF00689E66 /* ssl_ciphersuites.c in Sources */,
+				0F6A508B1E1E56BF00689E66 /* md_wrap.c in Sources */,
+				0F6A50921E1E56BF00689E66 /* pk_wrap.c in Sources */,
+				0F6A50941E1E56BF00689E66 /* pkcs12.c in Sources */,
+				0F6A50861E1E56BF00689E66 /* Makefile in Sources */,
+				0F6A507C1E1E56BF00689E66 /* ecdsa.c in Sources */,
+				0F6A50791E1E56BF00689E66 /* des.c in Sources */,
+				0F6A50AD1E1E56BF00689E66 /* x509_csr.c in Sources */,
+				0F6A50AB1E1E56BF00689E66 /* x509_crl.c in Sources */,
+				0F6A50811E1E56BF00689E66 /* entropy_poll.c in Sources */,
+				0F6A4FC81E1E56AC00689E66 /* aliyun_iot_platform_pthread.c in Sources */,
+				0F6A51311E1E5ABA00689E66 /* aliyun_iot_mqtt_client.c in Sources */,
+				0F6A4FCB1E1E56AC00689E66 /* aliyun_iot_platform_threadsync.c in Sources */,
+				0F6A4FAC1E1E56A000689E66 /* aliyun_iot_common_md5.c in Sources */,
+				0F6A506B1E1E56BF00689E66 /* arc4.c in Sources */,
+				0F6A50871E1E56BF00689E66 /* md.c in Sources */,
+				0F6A50751E1E56BF00689E66 /* cipher_wrap.c in Sources */,
+				0F6A50801E1E56BF00689E66 /* entropy.c in Sources */,
+				0F6A50B01E1E56BF00689E66 /* xtea.c in Sources */,
+				0F6A509D1E1E56BF00689E66 /* sha512.c in Sources */,
+				0F6A4FA71E1E56A000689E66 /* aliyun_iot_common_hmac.c in Sources */,
+				0F6A51371E1E5ABA00689E66 /* MQTTPacket.c in Sources */,
+				0F6A4F551E1E55BF00689E66 /* main.m in Sources */,
+				0F6A4FCC1E1E56AC00689E66 /* aliyun_iot_platform_timer.c in Sources */,
+				0F6A50AA1E1E56BF00689E66 /* x509_create.c in Sources */,
+				0F6A50731E1E56BF00689E66 /* certs.c in Sources */,
+				0F6A4FC61E1E56AC00689E66 /* aliyun_iot_platform_network.c in Sources */,
+				0F6A50901E1E56BF00689E66 /* pem.c in Sources */,
+				0F6A51351E1E5ABA00689E66 /* MQTTDeserializePublish.c in Sources */,
+				0F6A4FCA1E1E56AC00689E66 /* aliyun_iot_platform_signal.c in Sources */,
+				0F6A50B11E1E56BF00689E66 /* aliyun_iot_network_ssl.c in Sources */,
+				0F6A506C1E1E56BF00689E66 /* asn1parse.c in Sources */,
+				0F6A4FAB1E1E56A000689E66 /* aliyun_iot_common_log.c in Sources */,
+				0F6A50A51E1E56BF00689E66 /* threading.c in Sources */,
+				0F6A513C1E1E5ABA00689E66 /* MQTTUnsubscribeServer.c in Sources */,
+				0F6A50931E1E56BF00689E66 /* pkcs11.c in Sources */,
+				0F6A507E1E1E56BF00689E66 /* ecp.c in Sources */,
+				0F6A4FAF1E1E56A000689E66 /* aliyun_iot_common_util.c in Sources */,
+				0F6A4FC91E1E56AC00689E66 /* aliyun_iot_platform_random.c in Sources */,
+				0F6A50711E1E56BF00689E66 /* camellia.c in Sources */,
+				0F6A50691E1E56BF00689E66 /* aes.c in Sources */,
+				0F6A4FC51E1E56AC00689E66 /* aliyun_iot_platform_memory.c in Sources */,
+				0F6A4FAE1E1E56A000689E66 /* aliyun_iot_common_urlencode.c in Sources */,
+				0F6A50891E1E56BF00689E66 /* md4.c in Sources */,
+				0F6A507B1E1E56BF00689E66 /* ecdh.c in Sources */,
+				0F6A508C1E1E56BF00689E66 /* memory_buffer_alloc.c in Sources */,
+				0F6A506D1E1E56BF00689E66 /* asn1write.c in Sources */,
+				0F6A50981E1E56BF00689E66 /* platform.c in Sources */,
+				0F6A51381E1E5ABA00689E66 /* MQTTSerializePublish.c in Sources */,
+				0F6A508D1E1E56BF00689E66 /* net.c in Sources */,
+				0F6A50971E1E56BF00689E66 /* pkwrite.c in Sources */,
+				0F6A50A61E1E56BF00689E66 /* timing.c in Sources */,
+				0F6A507F1E1E56BF00689E66 /* ecp_curves.c in Sources */,
+				0F6A4FA81E1E56A000689E66 /* aliyun_iot_common_httpclient.c in Sources */,
+				0F6A50A41E1E56BF00689E66 /* ssl_tls.c in Sources */,
+				0F6A50841E1E56BF00689E66 /* havege.c in Sources */,
+				0F6A509C1E1E56BF00689E66 /* sha256.c in Sources */,
+				0F6A50831E1E56BF00689E66 /* gcm.c in Sources */,
+				0F6A50A11E1E56BF00689E66 /* ssl_cookie.c in Sources */,
+				0F6A4FA91E1E56A000689E66 /* aliyun_iot_common_json.c in Sources */,
+				0F6A4FAA1E1E56A000689E66 /* aliyun_iot_common_list.c in Sources */,
+				0F6A508E1E1E56BF00689E66 /* oid.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6A4F651E1E55BF00689E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6A4F6E1E1E55BF00689E66 /* test2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6A4F701E1E55BF00689E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6A4F791E1E55BF00689E66 /* test2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F6A4F6B1E1E55BF00689E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F6A4F4F1E1E55BF00689E66 /* aliyun-iot-device-sdk */;
+			targetProxy = 0F6A4F6A1E1E55BF00689E66 /* PBXContainerItemProxy */;
+		};
+		0F6A4F761E1E55BF00689E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F6A4F4F1E1E55BF00689E66 /* aliyun-iot-device-sdk */;
+			targetProxy = 0F6A4F751E1E55BF00689E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F6A4F5C1E1E55BF00689E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6A4F5D1E1E55BF00689E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F6A4F611E1E55BF00689E66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F6A4F621E1E55BF00689E66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F6A4F7B1E1E55BF00689E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F6A4F7C1E1E55BF00689E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F6A4F7E1E1E55BF00689E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../public_libs",
+					"$(PROJECT_DIR)/../public_libs/mbedtls",
+					"$(PROJECT_DIR)/../public_libs/porting",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/configs",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/configs/aliyun_iot",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/configs/aliyun_iot/mbedtls",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/include",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/include/mbedtls",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/library",
+					"$(PROJECT_DIR)/../public_libs/porting/mbedtls",
+					"$(PROJECT_DIR)/../common/inc",
+					"$(PROJECT_DIR)/../include/mqtt",
+					"$(PROJECT_DIR)/../platform/linux/inc",
+					"$(PROJECT_DIR)/../src/mqtt/MQTTPacket/src",
+					"$(PROJECT_DIR)/../src/mqtt/MQTTClient-C/nettype/tcp",
+					"$(PROJECT_DIR)/../src/mqtt/MQTTClient-C/src",
+				);
+				INFOPLIST_FILE = test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xishi.access.test2;
+				PRODUCT_NAME = "aliyun-iot-device-sdk";
+			};
+			name = Debug;
+		};
+		0F6A4F7F1E1E55BF00689E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../public_libs",
+					"$(PROJECT_DIR)/../public_libs/mbedtls",
+					"$(PROJECT_DIR)/../public_libs/porting",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/configs",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/configs/aliyun_iot",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/configs/aliyun_iot/mbedtls",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/include",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/include/mbedtls",
+					"$(PROJECT_DIR)/../public_libs/mbedtls/library",
+					"$(PROJECT_DIR)/../public_libs/porting/mbedtls",
+					"$(PROJECT_DIR)/../common/inc",
+					"$(PROJECT_DIR)/../include/mqtt",
+					"$(PROJECT_DIR)/../platform/linux/inc",
+					"$(PROJECT_DIR)/../src/mqtt/MQTTPacket/src",
+					"$(PROJECT_DIR)/../src/mqtt/MQTTClient-C/nettype/tcp",
+					"$(PROJECT_DIR)/../src/mqtt/MQTTClient-C/src",
+				);
+				INFOPLIST_FILE = test2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xishi.access.test2;
+				PRODUCT_NAME = "aliyun-iot-device-sdk";
+			};
+			name = Release;
+		};
+		0F6A4F811E1E55BF00689E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = test2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xishi.access.test2Tests;
+				PRODUCT_NAME = "aliyun-iot-device-sdk";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aliyun-iot-device-sdk.app/aliyun-iot-device-sdk";
+			};
+			name = Debug;
+		};
+		0F6A4F821E1E55BF00689E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = test2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xishi.access.test2Tests;
+				PRODUCT_NAME = "aliyun-iot-device-sdk";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aliyun-iot-device-sdk.app/aliyun-iot-device-sdk";
+			};
+			name = Release;
+		};
+		0F6A4F841E1E55BF00689E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = test2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xishi.access.test2UITests;
+				PRODUCT_NAME = "aliyun-iot-device-sdk";
+				TEST_TARGET_NAME = test2;
+			};
+			name = Debug;
+		};
+		0F6A4F851E1E55BF00689E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = test2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xishi.access.test2UITests;
+				PRODUCT_NAME = "aliyun-iot-device-sdk";
+				TEST_TARGET_NAME = test2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F6A4F4B1E1E55BF00689E66 /* Build configuration list for PBXProject "aliyun-iot-device-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6A4F7B1E1E55BF00689E66 /* Debug */,
+				0F6A4F7C1E1E55BF00689E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6A4F7D1E1E55BF00689E66 /* Build configuration list for PBXNativeTarget "aliyun-iot-device-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6A4F7E1E1E55BF00689E66 /* Debug */,
+				0F6A4F7F1E1E55BF00689E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F6A4F801E1E55BF00689E66 /* Build configuration list for PBXNativeTarget "aliyun-iot-device-sdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6A4F811E1E55BF00689E66 /* Debug */,
+				0F6A4F821E1E55BF00689E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F6A4F831E1E55BF00689E66 /* Build configuration list for PBXNativeTarget "aliyun-iot-device-sdkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6A4F841E1E55BF00689E66 /* Debug */,
+				0F6A4F851E1E55BF00689E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F6A4F481E1E55BF00689E66 /* Project object */;
+}
