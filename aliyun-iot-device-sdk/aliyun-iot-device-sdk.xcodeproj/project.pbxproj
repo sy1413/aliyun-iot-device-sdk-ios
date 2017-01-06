@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F31AFFD1E1F3D34007B908A /* AliyunMqttClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F31AFFC1E1F3D34007B908A /* AliyunMqttClient.m */; };
 		0F6A4F551E1E55BF00689E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F541E1E55BF00689E66 /* main.m */; };
 		0F6A4F581E1E55BF00689E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F571E1E55BF00689E66 /* AppDelegate.m */; };
 		0F6A4F5B1E1E55BF00689E66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A4F5A1E1E55BF00689E66 /* ViewController.m */; };
@@ -141,6 +142,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F31AFFB1E1F3D34007B908A /* AliyunMqttClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunMqttClient.h; sourceTree = "<group>"; };
+		0F31AFFC1E1F3D34007B908A /* AliyunMqttClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunMqttClient.m; sourceTree = "<group>"; };
 		0F6A4F501E1E55BF00689E66 /* aliyun-iot-device-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aliyun-iot-device-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6A4F541E1E55BF00689E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0F6A4F561E1E55BF00689E66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -429,10 +432,12 @@
 				0F6A4F571E1E55BF00689E66 /* AppDelegate.m */,
 				0F6A4F591E1E55BF00689E66 /* ViewController.h */,
 				0F6A4F5A1E1E55BF00689E66 /* ViewController.m */,
+				0F31AFFB1E1F3D34007B908A /* AliyunMqttClient.h */,
+				0F31AFFC1E1F3D34007B908A /* AliyunMqttClient.m */,
 				0F6A4F5C1E1E55BF00689E66 /* Main.storyboard */,
 				0F6A4F5F1E1E55BF00689E66 /* Assets.xcassets */,
-				0F6A4F611E1E55BF00689E66 /* LaunchScreen.storyboard */,
 				0F6A4F641E1E55BF00689E66 /* Info.plist */,
+				0F6A4F611E1E55BF00689E66 /* LaunchScreen.storyboard */,
 				0F6A4F531E1E55BF00689E66 /* Supporting Files */,
 			);
 			name = "aliyun-iot-device-sdk";
@@ -1048,6 +1053,7 @@
 				0F6A4FA61E1E56A000689E66 /* aliyun_iot_common_config.c in Sources */,
 				0F6A508F1E1E56BF00689E66 /* padlock.c in Sources */,
 				0F6A50821E1E56BF00689E66 /* error.c in Sources */,
+				0F31AFFD1E1F3D34007B908A /* AliyunMqttClient.m in Sources */,
 				0F6A509B1E1E56BF00689E66 /* sha1.c in Sources */,
 				0F6A50851E1E56BF00689E66 /* hmac_drbg.c in Sources */,
 				0F6A513A1E1E5ABA00689E66 /* MQTTSubscribeServer.c in Sources */,
@@ -1401,6 +1407,7 @@
 				0F6A4F7F1E1E55BF00689E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F6A4F801E1E55BF00689E66 /* Build configuration list for PBXNativeTarget "aliyun-iot-device-sdkTests" */ = {
 			isa = XCConfigurationList;
@@ -1409,6 +1416,7 @@
 				0F6A4F821E1E55BF00689E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F6A4F831E1E55BF00689E66 /* Build configuration list for PBXNativeTarget "aliyun-iot-device-sdkUITests" */ = {
 			isa = XCConfigurationList;
@@ -1417,6 +1425,7 @@
 				0F6A4F851E1E55BF00689E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
